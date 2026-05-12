@@ -1,6 +1,9 @@
 # Project to test super line graph architectures
 
+This is only a partial implementation of my project.
 
+Main structure:
+```
 to_present/
 ├── configs/          
 │   ├── data/                            # yml files for datasets
@@ -48,7 +51,7 @@ to_present/
 ├── Readme.md
 ├── requirements.txt
 └── setup.py
-
+```
 
 - The implementation of graphGym has to be completed.
 
