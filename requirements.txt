@@ -1,0 +1,18 @@
+# Core deep learning
+torch>=2.0
+
+# PyTorch Geometric ecosystem
+torch-geometric
+
+# Scientific computing
+numpy
+pandas
+scipy
+hydra-core
+
+# Graphs
+networkx
+
+# Visualization
+matplotlib
+seaborn

@@ -1,0 +1,4 @@
+name: gcn
+
+hidden_dim: 64
+num_layers: 4

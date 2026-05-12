@@ -1,0 +1,9 @@
+name: slg_naive
+
+hidden_dim: 32
+dropout: 0
+num_heads_st1: 4            # Attention heads for edge SetTransformer
+num_heads_st2: 4            # Attention heads for L2 node SetTransformer
+topology_info: true         # Adds incident bit dimension
+use_in_out: true           # Adds L2 degree dimension
+readout_type: "mean"   # Options: "mean", "attention", "set_transformer"

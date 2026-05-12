@@ -1,0 +1,12 @@
+name: slg_advanced
+
+hidden_dim: 64
+dropout: 0
+num_heads_st1: 4
+num_heads_st2: 4
+use_gcn: False
+use_sgn: True
+topology_info: True
+use_in_out: True
+readout_type: attention # attention, mean, set_transformer
+num_heads_readout: 4

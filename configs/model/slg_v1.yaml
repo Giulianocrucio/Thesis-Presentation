@@ -1,0 +1,9 @@
+name: slg_v1
+
+hidden_dim: 64
+num_heads: 2
+num_layers_transformer: 3
+dropout: 0.5
+num_layers_ffn: 3
+new_readout: True
+# use_batchnorm: True

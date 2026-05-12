@@ -1,0 +1,23 @@
+defaults:
+  - _self_
+  - model: slg_advanced
+  - data: mutag
+
+training:
+  epochs: 10
+  batch_size: 64
+  lr: 0.001
+  weight_decay: 1e-5
+  loss: l1   # mae for ZINC
+  patience: 10 # For learning rate scheduler
+  log_every_n_steps: 50
+  eval_every_n_epochs: 1
+  checkpoint_dir: "./checkpoints"
+  build_plot: True
+
+# System and Data loading
+system:
+  use_graphgym: false
+  use_l2: true
+  num_workers: 0
+  seed: 42

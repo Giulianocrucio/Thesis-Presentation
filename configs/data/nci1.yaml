@@ -1,0 +1,4 @@
+name: nci1
+graph_task: True
+regression_task: False
+classification_task: True

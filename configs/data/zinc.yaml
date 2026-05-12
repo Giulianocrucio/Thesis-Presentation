@@ -1,0 +1,5 @@
+name: zinc
+target_dim: 1
+graph_task: True
+regression_task: True
+classification_task: False

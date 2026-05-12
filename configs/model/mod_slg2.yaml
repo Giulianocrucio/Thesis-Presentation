@@ -1,0 +1,12 @@
+name: mod_slg2
+
+hidden_dim: 128
+num_heads: 2
+num_layers_transformer: 3
+dropout: 0.1
+num_layers_ffn: 3
+# use_batchnorm: True
+hidden_dim_1: 128
+num_layers1: 2
+edge_node_hidden_dim: 128
+n_layers_ff_ef: 2
