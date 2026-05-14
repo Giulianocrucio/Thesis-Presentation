@@ -49,7 +49,9 @@ Thesis-Presentation/
 ├── .gitignore
 ├── Readme.md
 ├── requirements.txt
-└── setup.py
+├── setup.py
+└── lemma_OEL_2.py                    # check Lemma on O(E_L_2) for erdos graphs.
+
 ```
 
 - The implementation of graphGym has to be completed.
