@@ -1,5 +1,6 @@
 # Project to test super line graph architectures
 
+This is only a partial implementation of my project.
 
 Thesis-Presentation/
 ├── configs/                            # configurations
@@ -49,7 +50,7 @@ Thesis-Presentation/
 ├── Readme.md
 ├── requirements.txt
 └── setup.py
-
+```
 
 - The implementation of graphGym has to be completed.
 
