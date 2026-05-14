@@ -1,14 +1,14 @@
 # Project to test super line graph architectures
 
 
-to_present/
-├── configs/          
-│   ├── data/                            # yml files for datasets
+Thesis-Presentation/
+├── configs/                            # configurations
+│   ├── data/                           # yml files for datasets
 │   │   ├── enzymes.yaml
 │   │   ├── mutag.yaml
 │   │   ├── nci1.yaml
 │   │   └── zinc.yaml
-│   ├── model/
+│   ├── model/                          # yml files for models
 │   │   ├── gcn.yaml
 │   │   ├── mod_slg2.yaml
 │   │   ├── mod_slg2_v2.yaml
@@ -19,18 +19,19 @@ to_present/
 ├── src/
 │   ├── data/                           # datasets handling
 │   │   ├── stat_data/
+|   |   |   ├── check_formula.py        # Check E_L_2 v.s. n^4 in benchmarks
 │   │   ├── __init__.py
 │   │   ├── data_loaders.py
 │   │   ├── prep.py
 │   │   ├── preprocessing.py
-│   │   ├── slg2.cpp
+│   │   ├── slg2.cpp                    # C++ implementation of SLG2
 │   │   └── transformation.py
 │   ├── models/                         # many models has been implemented
 │   │   ├── __init__.py
-│   │   ├── classifier_head.py
+│   │   ├── classifier_head.py          
 │   │   ├── factory.py
-│   │   ├── gcn.py
-│   │   ├── mod_slg2.py
+│   │   ├── gcn.py                      # Baseline model
+│   │   ├── mod_slg2.py                 
 │   │   ├── mod_slg2_v2.py
 │   │   ├── slg_advance.py
 │   │   ├── slg_naive.py
