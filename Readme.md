@@ -2,6 +2,7 @@
 
 This is only a partial implementation of my project.
 
+```
 Thesis-Presentation/
 ├── configs/                            # configurations
 │   ├── data/                           # yml files for datasets
@@ -51,7 +52,6 @@ Thesis-Presentation/
 ├── requirements.txt
 ├── setup.py
 └── lemma_OEL_2.py                    # check Lemma on O(E_L_2) for erdos graphs.
-
 ```
 
 - The implementation of graphGym has to be completed.
