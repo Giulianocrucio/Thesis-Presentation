@@ -1,5 +1,7 @@
 # Project to test super line graph architectures
 
+- Read project.pdf to understand the goals
+
 This is only a partial implementation of my project.
 
 ```
